@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:util="http://www.springframework.org/schema/util"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd">
+
+    <context:property-placeholder location="classpath:texts.properties" />
+
+    <bean id="beanPostProcessor" class="DisplayNameBeanPostProcessor" />
+
+    <bean id="triangle" class="Triangle">
+        <property name="val" value="${test}" />
+        <property name="pointA" ref="pointA" />
+        <property name="pointB" ref="pointB" />
+        <property name="pointC" ref="pointC" />
+    </bean>
+
+    <bean id="pointA" class="Point">
+        <property name="x" value="0" />
+        <property name="y" value="0" />
+    </bean>
+
+    <bean id="pointB" class="Point">
+        <property name="x" value="-20" />
+        <property name="y" value="0" />
+    </bean>
+
+    <bean id="pointC" class="Point">
+        <property name="x" value="20" />
+        <property name="y" value="0" />
+    </bean>
+</beans>
