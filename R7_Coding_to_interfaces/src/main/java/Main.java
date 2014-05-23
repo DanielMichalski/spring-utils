@@ -1,8 +1,7 @@
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import shapes.Circle;
-import shapes.Shape;
-import shapes.Triangle;
+import org.ninjaapps.events.shapes.Shape;
+import org.ninjaapps.events.shapes.Triangle;
 
 /**
  * Author: Daniel
