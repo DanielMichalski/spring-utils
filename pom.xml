@@ -23,6 +23,7 @@
         <module>R11_JSR_250_Annotations</module>
         <module>R12_Component_and_Stereotype_Annotation</module>
         <module>R14_Event_Handling</module>
+        <module>R15_Aspect_Programming</module>
     </modules>
 
     <dependencies>
