@@ -4,24 +4,24 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>Spring-utils</groupId>
-  <artifactId>Spring-utils</artifactId>
+  <groupId>spring-utils</groupId>
+  <artifactId>spring-utils</artifactId>
   <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
 
   <modules>
-    <module>R1 - configuring beans</module>
-    <module>R2 - injecting objects</module>
-    <module>R3 - initializing collections</module>
-    <module>R4 - Bean Autowiring</module>
-    <module>R5 - Lifecycle Callbacks</module>
-    <module>R6 - BeanPostProcessor</module>
-    <module>R7 - Coding to interfaces</module>
-    <module>R8 - Inner beans, aliases and idref</module>
-    <module>R9 - Annotations and Required</module>
-    <module>R10 - Autowired Annotation</module>
-    <module>R11 - JSR-250 Annotations</module>
-    <module>R12 - Component and Stereotype Annotation</module>
+    <module>R1_Configuring_beans</module>
+    <module>R2_Injecting_objects</module>
+    <module>R3_Initializing-collections</module>
+    <module>R4_Bean_Autowiring</module>
+    <module>R5_Lifecycle_Callbacks</module>
+    <module>R6_BeanPostProcessor</module>
+    <module>R7_Coding_to_interfaces</module>
+    <module>R8_Inner_beans_aliases_and_idref</module>
+    <module>R9_Annotations_and_Required</module>
+    <module>R10_Autowired_Annotation</module>
+    <module>R11_JSR_250_Annotations</module>
+    <module>R12_Component_and_Stereotype_Annotation</module>
   </modules>
 
   <dependencies>
