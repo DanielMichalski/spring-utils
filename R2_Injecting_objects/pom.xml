@@ -9,6 +9,5 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>DI1</artifactId>
-
+    <artifactId>R2_Injecting_objects</artifactId>
 </project>

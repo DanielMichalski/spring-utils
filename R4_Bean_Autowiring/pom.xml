@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring</artifactId>
+    <artifactId>R4_Bean_Autowiring</artifactId>
 
 
 </project>
