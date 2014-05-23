@@ -9,5 +9,6 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>DI9</artifactId>
+  <artifactId>R10_Autowired_Annotation</artifactId>
+
 </project>
