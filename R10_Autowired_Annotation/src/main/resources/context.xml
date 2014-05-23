@@ -6,21 +6,21 @@
 
   <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor" />
 
-  <bean id="pointA" class="shapes.Point">
+  <bean id="pointA" class="org.ninjaapps.events.shapes.Point">
     <property name="x" value="0"/>
     <property name="y" value="0"/>
   </bean>
 
-  <bean id="pointB" class="shapes.Point">
+  <bean id="pointB" class="org.ninjaapps.events.shapes.Point">
     <property name="x" value="-20"/>
     <property name="y" value="0"/>
   </bean>
 
-  <bean id="pointC" class="shapes.Point">
+  <bean id="pointC" class="org.ninjaapps.events.shapes.Point">
     <property name="x" value="20"/>
     <property name="y" value="0"/>
   </bean>
 
-  <bean id="circle" class="shapes.Circle" />
+  <bean id="circle" class="org.ninjaapps.events.shapes.Circle" />
 
 </beans>

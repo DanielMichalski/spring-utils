@@ -22,6 +22,7 @@
         <module>R10_Autowired_Annotation</module>
         <module>R11_JSR_250_Annotations</module>
         <module>R12_Component_and_Stereotype_Annotation</module>
+        <module>R14_Event_Handling</module>
     </modules>
 
     <dependencies>
