@@ -5,21 +5,29 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans
 	http://www.springframework.org/schema/beans/spring-beans-2.5.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <context:component-scan base-package="shapes"/>
+    <context:component-scan base-package="org.ninjaapps.events.shapes"/>
 
     <context:annotation-config/>
+    
+    <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+        <property name="basenames">
+            <list>
+                <value>messages</value>
+            </list>
+        </property>
+    </bean>
 
-    <bean id="pointA" class="shapes.Point">
+    <bean id="pointA" class="org.ninjaapps.events.shapes.Point">
         <property name="x" value="0"/>
         <property name="y" value="0"/>
     </bean>
 
-    <bean id="pointB" class="shapes.Point">
+    <bean id="pointB" class="org.ninjaapps.events.shapes.Point">
         <property name="x" value="-20"/>
         <property name="y" value="0"/>
     </bean>
 
-    <bean id="center" class="shapes.Point">
+    <bean id="center" class="org.ninjaapps.events.shapes.Point">
         <property name="x" value="20"/>
         <property name="y" value="0"/>
     </bean>

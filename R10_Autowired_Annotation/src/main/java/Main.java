@@ -1,6 +1,6 @@
 import org.springframework.context.support.AbstractApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
-import shapes.Shape;
+import org.ninjaapps.events.shapes.Shape;
 
 /**
  * Author: Daniel

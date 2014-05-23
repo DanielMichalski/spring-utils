@@ -3,23 +3,23 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-  <bean id="triangle" class="shapes.Triangle" name="triangle-name">
+  <bean id="triangle" class="org.ninjaapps.events.shapes.Triangle" name="triangle-name">
     <property name="pointA" ref="zeroPoint"/>
     <property name="pointB">
-      <bean class="shapes.Point">
+      <bean class="org.ninjaapps.events.shapes.Point">
         <property name="x" value="-20"/>
         <property name="y" value="0"/>
       </bean>
     </property>
     <property name="pointC">
-      <bean class="shapes.Point">
+      <bean class="org.ninjaapps.events.shapes.Point">
         <property name="x" value="20"/>
         <property name="y" value="0"/>
       </bean>
     </property>
   </bean>
 
-  <bean id="zeroPoint" class="shapes.Point">
+  <bean id="zeroPoint" class="org.ninjaapps.events.shapes.Point">
     <property name="x" value="0"/>
     <property name="y" value="0"/>
   </bean>
