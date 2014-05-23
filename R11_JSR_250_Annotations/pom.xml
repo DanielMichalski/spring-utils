@@ -9,6 +9,5 @@
   </parent>
   <modelVersion>4.0.0</modelVersion>
 
-  <artifactId>DI10</artifactId>
-
+  <artifactId>R11_JSR_250_Annotations</artifactId>
 </project>

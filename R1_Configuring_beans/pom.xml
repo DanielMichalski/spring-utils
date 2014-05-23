@@ -9,5 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>DI2</artifactId>
+    <artifactId>R1_Configuring_beans</artifactId>
+
 </project>

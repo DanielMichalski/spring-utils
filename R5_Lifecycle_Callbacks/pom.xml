@@ -9,7 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>DI6</artifactId>
-
+    <artifactId>R5_Lifecycle_Callbacks</artifactId>
 
 </project>
