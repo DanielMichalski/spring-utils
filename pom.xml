@@ -30,6 +30,7 @@
         <module>R15_Aspect_Programming</module>
         <module>R16_Aspect_JoinPoints</module>
         <module>R17_Aspect_Around_Advice</module>
+        <module>R18_Aspect_Custom_Advice</module>
     </modules>
 
     <dependencies>
