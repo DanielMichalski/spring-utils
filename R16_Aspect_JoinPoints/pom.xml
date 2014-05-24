@@ -9,6 +9,6 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>R15_Aspect_Programming</artifactId>
+    <artifactId>R16_Aspect_JoinPoints</artifactId>
 
 </project>
