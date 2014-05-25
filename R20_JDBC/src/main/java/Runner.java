@@ -1,4 +1,4 @@
-import dao.JdbCircleDao;
+import com.bestsoft.spring.dao.JdbCircleDao;
 import model.Circle;
 
 /**
