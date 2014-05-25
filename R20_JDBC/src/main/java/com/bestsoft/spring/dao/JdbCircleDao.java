@@ -1,4 +1,4 @@
-package dao;
+package com.bestsoft.spring.dao;
 
 import model.Circle;
 

@@ -1,4 +1,4 @@
-package model;
+package com.bestsoft.spring.model;
 
 /**
  * Author: Daniel
