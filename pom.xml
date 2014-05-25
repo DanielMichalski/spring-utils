@@ -31,6 +31,9 @@
         <module>R16_Aspect_JoinPoints</module>
         <module>R17_Aspect_Around_Advice</module>
         <module>R18_Aspect_Custom_Advice</module>
+        <module>R19_AOP_XML_Configuration</module>
+        <module>R20_JDBC</module>
+        <module>R21_Spring_Data_Source</module>
     </modules>
 
     <dependencies>
@@ -70,6 +73,13 @@
             <groupId>cglib</groupId>
             <artifactId>cglib</artifactId>
             <version>3.1</version>
+        </dependency>
+
+        <!-- Apache Derby DB Client -->
+        <dependency>
+            <groupId>org.apache.derby</groupId>
+            <artifactId>derbyclient</artifactId>
+            <version>10.10.2.0</version>
         </dependency>
     </dependencies>
 </project>
