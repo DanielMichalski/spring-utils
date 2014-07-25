@@ -16,15 +16,15 @@
     </properties>
 
     <modules>
-        <module>R1_Configuring_beans</module>
-        <module>R2_Injecting_objects</module>
-        <module>R3_Initializing-collections</module>
-        <module>R4_Bean_Autowiring</module>
-        <module>R5_Lifecycle_Callbacks</module>
-        <module>R6_BeanPostProcessor</module>
-        <module>R7_Coding_to_interfaces</module>
-        <module>R8_Inner_beans_aliases_and_idref</module>
-        <module>R9_Annotations_and_Required</module>
+        <module>R01_Configuring_beans</module>
+        <module>R02_Injecting_objects</module>
+        <module>R03_Initializing-collections</module>
+        <module>R04_Bean_Autowiring</module>
+        <module>R05_Lifecycle_Callbacks</module>
+        <module>R06_BeanPostProcessor</module>
+        <module>R07_Coding_to_interfaces</module>
+        <module>R08_Inner_beans_aliases_and_idref</module>
+        <module>R09_Annotations_and_Required</module>
         <module>R10_Autowired_Annotation</module>
         <module>R11_JSR_250_Annotations</module>
         <module>R12_Component_and_Stereotype_Annotation</module>
